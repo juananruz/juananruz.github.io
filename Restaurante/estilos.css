@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+    background-color: black;
+    margin-top: 0%;
+    font-weight: bold;
+    color: white;
+}
+a {
+    color:black;
+    font-weight:bolder;
+    
+}
+ul{
+  list-style: none;
+};
+img {
+    max-width: 100%;
+  height: auto;
+  text-align: left;
+    };
+h3 {
+    background-color: black;
+    color: white;
+    
+}
+ol{
+  list-style:lower-latin;
+}
