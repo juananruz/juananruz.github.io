@@ -9,3 +9,7 @@ body {
 a {
     color: blue;
 }
+p{
+    color: blue;
+    text-align: justify;
+}
