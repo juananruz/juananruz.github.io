@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+h1{
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;        
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+  width: 16%;        
+  height: 60px;      
+  padding: 0;
+}
+.prog { background: yellow; }   
+.endes { background: lightcoral; }  
+.badat { background: lightgreen; }  
+.dasp { background: pink; }   
+.siinf { background: lightblue; }  
+.lmsgi { background: plum; }  
+.ipe { background: khaki; }    
+.sasp { background: paleturquoise; }   
+.tut { background: lightgray; }    
