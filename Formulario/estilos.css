@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightyellow;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: darkgrey;
+}
+
+.contenedor {
+    background: white;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+a {
+    display: block;
+    font-size: 20px;
+    margin: 20px 0;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.form-container {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.datos-personales {
+    background: grey;
+}
+
+.forma-acceso {
+    background: lightsalmon;
+}
+
+.documentos {
+    background: lightcoral;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], select {
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.sub-options {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+}
+
+.titulo {
+    font-style: italic;
+    color: orange;
+}
+
+.formulario {
+    width: 70%;
+    margin: auto;
+}
+
+.bloque {
+    background: orange;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 15px rgba(150, 100, 0, 0.4);
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 14px;
+    color: brown;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.lista-multiple {
+    width: 150px;
+    margin-top: 5px;
+}
+
+.actividades label {
+    display: inline-block;
+    width: 200px;
+}
+
+
+
+.botones {
+    margin-top: 30px;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #7a5a20;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: brown;
+}
+
+.cancelar {
+    background: brown;
+}
