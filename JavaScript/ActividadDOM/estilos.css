@@ -1,0 +1,4 @@
+body{font-family:Arial,sans-serif;margin:20px}
+table{margin-top:15px;border-collapse:collapse}
+td{padding:15px;cursor:pointer}
+.titulo-activo{background:lightyellow;padding:10px}

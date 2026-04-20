@@ -1,40 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 1 - Datos Personales</title>
-    <link rel="stylesheet" href="estilos.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actividad 1</title>
+<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="container">
-        <a href="../index.html" class="volver">← Volver al menu</a>
-        
-        <h1>Actividad 1: Datos Personales</h1>
-        <p>Introduce tus datos para calcular tu año de nacimiento y saber si eres mayor o menor de edad</p>
-        
-        <div class="formulario">
-            <div class="campo">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Introduce tu nombre">
-            </div>
-            
-            <div class="campo">
-                <label for="apellidos">Apellidos:</label>
-                <input type="text" id="apellidos" placeholder="Introduce tus apellidos">
-            </div>
-            
-            <div class="campo">
-                <label for="edad">Edad:</label>
-                <input type="number" id="edad" placeholder="Introduce tu edad">
-            </div>
-            
-            <button id="btnMostrar" class="btn-enviar">Mostrar Informacion</button>
-        </div>
-        
-        <div id="resultado" class="resultado"></div>
-    </div>
+<h1>Formulario Persona</h1>
 
-    <script src="actividad1.js"></script>
+<input type="text" id="nombre" placeholder="Nombre"><br><br>
+<input type="text" id="apellidos" placeholder="Apellidos"><br><br>
+<input type="number" id="edad" placeholder="Edad"><br><br>
+
+<button onclick="mostrarDatos()">Mostrar Datos</button>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
