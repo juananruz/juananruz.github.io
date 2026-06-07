@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla con colores y LocalStorage</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<h2>Tabla de recetas</h2>
+
+<label>Color filas pares:</label>
+<select id="colorPar">
+  <option value="white">Blanco</option>
+  <option value="lightblue">Azul claro</option>
+  <option value="lightgreen">Verde claro</option>
+  <option value="lightgray">Gris claro</option>
+  <option value="yellow">Amarillo</option>
+</select>
+
+<label>Color filas impares:</label>
+<select id="colorImpar">
+  <option value="white">Blanco</option>
+  <option value="pink">Rosa</option>
+  <option value="orange">Naranja</option>
+  <option value="lightcoral">Coral</option>
+  <option value="lavender">Lavanda</option>
+</select>
+
+<table id="tabla">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Receta</th>
+      <th>Ingredientes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Salmorejo</td>
+      <td>Tomate, aceite y pan</td>
+      <td>Tomate, aceite y pan</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Gachas</td>
+      <td>Harina, agua y azúcar</td>
+      <td>Harina, agua y azúcar</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Migas</td>
+      <td>Pan, ajo y aceite</td>
+      <td>Pan, ajo y aceite</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
