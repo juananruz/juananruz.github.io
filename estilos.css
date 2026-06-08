@@ -1,45 +1,55 @@
-h1 {
-  background: navy;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
 body {
-  margin: 0;
-  padding: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: whitesmoke;
-  color: black;
-  text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-a {
-    color: blue;
+.contenedor {
+    background: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    border-bottom: 3px solid #003366;
+    padding-bottom: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu a {
+    display: block;
     text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-p{
-  max-width: 800px;
-  margin: 0 auto 30px auto;
-  line-height: 1.7;
-  font-size: 1.1rem;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px gray;
+    color: #003366;
+    background: #e8eef7;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-li{
-background: lightblue;
-  color: midnightblue;
-  margin: 15px 0;
-  padding: 15px 20px;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  text-align: left;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 6px silver;
+.menu a:hover {
+    background: #003366;
+    color: white;
+    transform: scale(1.03);
 }
